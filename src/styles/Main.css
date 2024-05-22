@@ -1,0 +1,100 @@
+/* src/components/Main.css */
+.container {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-card {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+    background: #ffffff;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  
+  .custom-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  .input-group input {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid #007bff;
+  }
+  
+  .custom-btn {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    color: #fff;
+  }
+  
+  .custom-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .suggestions-container {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .suggestion-item {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .suggestion-item:hover,
+  .suggestion-item--highlighted {
+    background-color: #f0f0f0;
+  }
+  
+  .alert {
+    margin-top: 10px;
+  }
+  
+  .current-weather,
+  .forecast {
+    margin-top: 20px;
+  }
+  
+  .forecast-day {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background: #f9f9f9;
+  }
+  
+  .text-center h4,
+  .text-center h5 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .text-center p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .text-center img {
+    width: 64px;
+    height: 64px;
+  }
+  
